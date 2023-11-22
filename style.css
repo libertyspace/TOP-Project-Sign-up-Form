@@ -89,7 +89,7 @@ main {
 }
 
 .image-side {
-  flex:1;
+  flex:1 0 444px;
   position: relative;
   
   
@@ -98,8 +98,9 @@ main {
 .form-side {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   position: relative;
-  flex:2;
+  flex:7 1 0;
 }
 
 .logo {
